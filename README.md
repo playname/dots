@@ -12,7 +12,8 @@ vim              - Text editor
 firefox          - Browser
 
 # Suckless utility
-Programs are included in .config
+Programs are included in .config with patches and custom settings
+
 
 ## dwm
 Patches: tilegap, fixborders
@@ -23,9 +24,6 @@ Patches: alpha, anysize, gruvbox
 ## dmenu
 
 ## slstatus
-
-
-(Configs and patches are included in this repo)
 
 
 # Other config files
