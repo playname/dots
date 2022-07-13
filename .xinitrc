@@ -1,8 +1,11 @@
+# Set keyboard layout
+setxkbmap de
+
 # Start compositor (shadows, alpha)
-picom &
+picom --daemon
 
 # Set wallpaper
-feh --bg-fill wallpapers/neon-city.jpg
+feh --bg-fill wallpapers/anime-balcony-clouds.jpg
 
 # Start suckless programs
 exec slstatus &

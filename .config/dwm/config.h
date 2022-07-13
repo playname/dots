@@ -15,11 +15,13 @@ static const char col_gray4[]       = "#eeeeee";
 static const char col_cyan[]        = "#005577";
 /* custom colors */
 static const char col_magenta[]     = "#53057a";
+static const char col_pink[]        = "#eb34ba";
+static const char col_yellow[]      = "#d69e04";
 
 static const char *colors[][3]      = {
 	/*               fg         bg         border   */
 	[SchemeNorm] = { col_gray3, col_gray1, col_gray2 },
-	[SchemeSel]  = { col_gray4, col_magenta,  col_magenta  },
+	[SchemeSel]  = { col_gray4, col_yellow,  col_yellow  },
 };
 
 /* tagging */
@@ -63,7 +65,7 @@ static const Layout layouts[] = {
 static char dmenumon[2] = "0"; /* component of dmenucmd, manipulated in spawn() */
 static const char *dmenucmd[] = { "dmenu_run", "-m", dmenumon, "-fn", dmenufont, "-nb", col_gray1, "-nf", col_gray3, "-sb", col_cyan, "-sf", col_gray4, NULL };
 static const char *termcmd[]  = { "st", NULL };
-static const char *browsercmd[] = { "firefox", NULL };
+static const char *browsercmd[] = { "firefox-bin", NULL };
 static const char *musiccmd[] = { "spotify", "--no-zygote" };
 
 static Key keys[] = {
@@ -108,7 +110,7 @@ static Key keys[] = {
 	TAGKEYS(                        XK_8,                      7)
 	TAGKEYS(                        XK_9,                      8)
 	
-	{ MODKEY|ShiftMask,             XK_q,      quit,           {0} },
+	{ MODKEY|ShiftMask,             XK_q,      quit,           {0} }
 };
 
 /* button definitions */
