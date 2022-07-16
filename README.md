@@ -61,3 +61,8 @@ Patches: alpha, anysize, gruvbox, scrollback-ringbuffer
 * ~/.xinitrc        - Set up dwm and other programs when starting xorg
 * ~/.zshrc          - Set command completion and custom prompt
 * ~/.zprofile       - Run startx on login
+
+# Tools
+
+## collect_files.sh
+Used to copy all necessary files from home directory into repo folder

@@ -1,9 +1,7 @@
-# Command completion
-autoload -Uz compinit
-compinit
+autoload -Uz compinit promptinit
 
-# Custom prompt
-autoload -Uz promptinit && promptinit
+compinit
+promptinit
 
 prompt_mytheme_setup() {
 	PS1="%F{magenta}%n%f@%F{cyan}%m%f | %F{yellow}%~%f -> "
@@ -12,7 +10,6 @@ prompt_mytheme_setup() {
 
 prompt_themes+=( mytheme )
 prompt mytheme
-
 
 # Aliases
 alias ls="ls --color"
