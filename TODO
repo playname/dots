@@ -1,0 +1,38 @@
+THEME CHANGER SCRIPT:
+- Probably just a simple bash script
+- Change xinitrc to set a different wallpaper
+- Change dwm/st/slstatus/dmenu config files and make clean install
+- Preferably reload xorg
+- Use config file
+	Syntax idea:
+	[dwm]
+	# It is not necessary to change the color definitions, but it would improve readability, so maybe add that in the future
+	SchemeNorm = fg, bg, border
+	SchemeSel = fg, bg, border
+
+	[st]
+	0 = "#282828"
+	1 = ...
+	...
+	15 = ...
+
+	[wallpaper]
+	option = fill
+	file = epic_wallpaper.jpg
+
+- Usage: desktop_theme [theme name]
+
+
+
+INSTALLER SCRIPT:
+- Install packages required for setup to run (e.g. x11 dependencies)
+- Download dots repo
+- Copy all files and dirs to their intended locations
+- Install suckless programs
+- User specific
+- Distro specific
+- Select what to do (similar to make)
+- Usage ideas:
+	install_dots --distro arch --all larry          - would install dependencies, dotfiles, and suckless programs for user larry
+	install_dots --distro gentoo --dots larry       - would install dotfiles for user larry
+	install_dots --distro gentoo --deps --sl larry  - would install dependencies and suckless programs for user larry

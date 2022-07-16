@@ -50,7 +50,7 @@ Suckless programs in .config with patches and custom settings
 Patches: tilegap, fixborders
 
 ## st
-Patches: alpha, anysize, gruvbox
+Patches: alpha, anysize, gruvbox, scrollback-ringbuffer
 
 ## dmenu
 
