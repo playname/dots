@@ -27,6 +27,7 @@ TODO: Better categorise packages
 * media-sound/alsa-utils             - Audio
 * app-editors/vim                    - Text editor
 * www-client/firefox-bin             - Browser (recommended to also install dev-lang/rust-bin to reduce waiting times)
+* media-gfx/scrot                    - Taking screenshots
 
 
 ## Arch
