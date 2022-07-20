@@ -1,6 +1,7 @@
 # Load and start add-ons
 autoload -Uz compinit promptinit
-compinit; promptinit
+compinit
+promptinit
 
 # Configure command completion
 zstyle ':completion::complete:*' use-cache 1
