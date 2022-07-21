@@ -10,5 +10,10 @@
 " Enable filetype detection
 :runtime! filetype.lua filetype.vim
 " Enable syntax highlighting
-:runtime! syntax/syntax.vim
+":runtime! syntax/syntax.vim
+syntax enable
 
+set background=dark
+colorscheme gruvbox
+" Allow transparent background
+hi Normal guibg=NONE ctermbg=NONE

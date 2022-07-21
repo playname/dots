@@ -15,16 +15,21 @@ static const char col_gray3[]       = "#bbbbbb";
 static const char col_gray4[]       = "#eeeeee";
 static const char col_cyan[]        = "#005578";
 /* custom colors */
-static const char col_light_blue[]  = "#05e5fa";
-static const char col_pink[]        = "#eb34ba";
-static const char col_pink_darker[] = "#eb34ba";
-static const char col_red[]         = "#fa3542";
-static const char col_yellow[]      = "#d69e04";
+//static const char col_light_blue[]  = "#05e5fa";
+//static const char col_pink[]        = "#eb34ba";
+//static const char col_pink_darker[] = "#eb34ba";
+//static const char col_red[]         = "#fa3542";
+//static const char col_yellow[]      = "#d69e04";
+static const char gruv_bg0[]        = "#282828";
+static const char gruv_bg1[]        = "#3c3836";
+static const char gruv_fg2[]        = "#d5c4a1";
+static const char gruv_fg0[]        = "#fbf1c7";
+static const char gruv_yellow[]     = "#d79921";
 
 static const char *colors[][3]      = {
 	/*               fg         bg         border   */
-	[SchemeNorm] = { col_gray3, col_gray1, col_gray2 },
-	[SchemeSel]  = { col_gray4, col_pink_darker,  col_pink_darker },
+	[SchemeNorm] = { gruv_fg2, gruv_bg0, gruv_bg1},
+	[SchemeSel]  = { gruv_fg0, gruv_yellow, gruv_yellow } 
 };
 
 /* tagging */

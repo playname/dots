@@ -8,8 +8,7 @@ setxkbmap de
 picom --daemon
 
 # Set wallpaper
-feh --bg-fill --no-fehbg wallpapers/sakura-neon-korea.jpg
-
+feh --bg-fill --no-fehbg Wallpapers/Gruvbox/1920x1080-dark-gentoo.png
 # Start suckless programs
 exec slstatus &
 exec dwm
