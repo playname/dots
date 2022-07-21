@@ -4,6 +4,8 @@
 # Set keyboard layout
 setxkbmap de
 
+xrdb ~/.Xresources
+
 # Start compositor (shadows, alpha)
 picom --daemon
 

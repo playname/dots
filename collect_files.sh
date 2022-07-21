@@ -1,8 +1,8 @@
 ### collect_files.sh (v0.1)
 ### Used to copy all needed files from user's home directory into this repository
 
-declare -a folders=(".config/dwm" ".config/st" ".config/slstatus" ".config/dmenu" "Wallpapers")
-declare -a files=(".xinitrc" ".zprofile" ".zshrc" ".config/nvim/init.vim")
+declare -a folders=(".config/dwm" ".config/st" ".config/slstatus" ".config/dmenu" ".config/nvim" "Wallpapers")
+declare -a files=(".xinitrc" ".Xresources" ".zprofile" ".zshrc")
 
 if [ ! -d "old" ] && [ -d "setup" ]; then
         echo "Creating folder: old"
