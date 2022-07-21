@@ -2,7 +2,7 @@
 ### Used to copy all needed files from user's home directory into this repository
 
 declare -a folders=(".config/dwm" ".config/st" ".config/slstatus" ".config/dmenu" "wallpapers")
-declare -a files=(".xinitrc" ".zprofile" ".zshrc")
+declare -a files=(".xinitrc" ".zprofile" ".zshrc" ".config/nvim/init.vim")
 
 if [ ! -d "old" ] && [ -d "setup" ]; then
         echo "Creating folder: old"
