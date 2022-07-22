@@ -35,8 +35,8 @@
 ## Other packages I use
 + x11-apps/xrandr                    - Used to set display configurations
 + x11-apps/setxkbmap                 - Used to set the keyboard layout in xorg
-+ x11-drivers/xf86-input-libinput    - xorg input support
-+ x11-drivers/xf86-video-nouveau     - Open source NVIDIA driver, not required for AMD cards or when other NVIDIA drivers are used
++ x11-drivers/xf86-input-libinput
++ x11-drivers/nvidia-drivers and sys-firmware/nvidia-firmware
 
 + net-misc/chrony                    - Used to synchronize time via ntp
 + net-misc/networkmanager            - NetworkManager, in combination with (or sometimes replaced by) dhcpcd and iwd (for laptop)
