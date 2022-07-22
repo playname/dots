@@ -3,7 +3,7 @@
 + **OS**: Gentoo
 + **WM**: [dwm](http://dwm.suckless.org/) - with tilegap and fixborders patches
 + **Compositor**: [Picom](http://dwm.suckless.org/) - for transparency 
-+ **Terminal**: [st](http://st.suckless.org/) - with alpha, anysize, gruvboy, scrollback-ringbuffer patches
++ **Terminal**: [st](http://st.suckless.org/) - with alpha, anysize, gruvbox, scrollback-ringbuffer patches
 + **Shell**: [zsh](https://www.zsh.org/)
 + **Editor**: [Neovim](https://github.com/neovim/neovim/)
 + **Launcher**: [dmenu](http://tools.suckless.org/dmenu/)
