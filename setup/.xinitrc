@@ -10,7 +10,8 @@ xrdb ~/.Xresources
 picom --daemon
 
 # Set wallpaper
-feh --bg-fill --no-fehbg Wallpapers/Gruvbox/1920x1080-dark-gentoo.png
+# feh --bg-fill --no-fehbg Wallpapers/Gruvbox/1920x1080-dark-gentoo.png
+~/.fehbg
 # Start suckless programs
-exec slstatus &
+slstatus &
 exec dwm
